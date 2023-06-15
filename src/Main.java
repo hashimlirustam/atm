@@ -106,7 +106,6 @@ public class Main {
         System.out.println("Enter ammount :");
         Scanner in = new Scanner(System.in);
         int inAm= in.nextInt();
-        System.out.println("hELLO");
         balance = balance+inAm;
         System.out.println("Your balance is " + balance +" now.\nContinue -> 1  | Exit -> 2");
         int cnt = in.nextInt();
